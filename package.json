@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "build-css": "npx tailwindcss -i ./styles/main.css -o ./dist/dist.css"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.2.6",
+    "gray-matter": "^4.0.2",
+    "next": "latest",
+    "nextra": "^0.4.4",
+    "nextra-theme-blog": "^0.1.5",
+    "postcss": "^8.3.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rss": "^1.2.2",
+    "tailwindcss": "^2.2.4"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "semi": false
+  }
+}
